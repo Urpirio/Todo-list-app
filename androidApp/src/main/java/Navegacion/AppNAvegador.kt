@@ -9,7 +9,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 
 
-
+@ExperimentalMaterial3Api
 @Composable
 public fun AppNavegador(){
     var navController = rememberNavController()
